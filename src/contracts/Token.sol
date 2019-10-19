@@ -31,6 +31,8 @@ contract Token {
   		balanceOf[_to] = balanceOf[_to].add(_value);
   		emit Transfer(msg.sender, _to, _value);
   		return true;
+
+      //Test
   }
 
 }
